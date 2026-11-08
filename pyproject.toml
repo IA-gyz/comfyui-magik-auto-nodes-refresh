@@ -1,0 +1,9 @@
+[project]
+name = "magik-auto-nodes-refresh"
+version = "1.0.0"
+description = "Automatically refresh file-backed node choices using native filesystem notifications and selective node-definition updates."
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = ["watchdog>=6.0.0"]
+classifiers = ["Operating System :: OS Independent"]
+
